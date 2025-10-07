@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisherman Workers Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="worker.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <span>Fisherman Workers</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#" class="service-tab-link" data-tab="small-fish">Small Fish Services</a>
+                            <a href="#" class="service-tab-link" data-tab="big-fish">Big Fish Services</a>
+                        </div>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#why-choose">Why Choose Us</a></li>
+                    <li><a href="#booking">Book Workers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Professional Fisherman Workers from </h1>
+            <h1> Andhra Pradesh</h1>
+            <p>Find experienced and reliable fisherman workers for your fishing operations. Book skilled professionals for short-term or long-term projects.</p>
+            <a href="#booking" class="btn">Book a Worker Now</a>
+        </div>
+    </section>
+
+    <!-- Auto Scrolling Image Gallery -->
+    <section class="image-gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Fishing in Andhra Pradesh</h2>
+                <p>Explore the rich fishing culture and practices from the coastal regions of Andhra Pradesh</p>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-track">
+                    <div class="gallery-item">
+                        <img src="fish tanks/Aquaculture-Boom-in-Andhra-Pradesh-Faces-Environmental-and-Health-Challenges.jpg" alt="Andhra deep sea fishing">
+                        <div class="gallery-caption">Deep Sea Fishing in Visakhapatnam</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/depositphotos_56719299-stock-photo-harvest-of-fish.jpg" alt="Net fishing in Andhra">
+                        <div class="gallery-caption">Traditional Net Fishing in Kakinada</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/f1.jpg" alt="Aquaculture in Andhra">
+                        <div class="gallery-caption">Aquaculture Farms in East Godavari</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/fishermen-displaying-two-freshly-caught-260nw-2571206159.webp" alt="Fishing team in Andhra">
+                        <div class="gallery-caption">Fishing Crew at Work in Machilipatnam</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/Launch-a-Profitable-Fish-Farm-in-the-UAEs-Unique-Climate-An-Ultimate-Guide.jpg" alt="Fishing boat in Andhra">
+                        <div class="gallery-caption">Traditional Fishing Boats in Srikakulam</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/Aquaculture-Boom-in-Andhra-Pradesh-Faces-Environmental-and-Health-Challenges.jpg" alt="Fisherman with catch">
+                        <div class="gallery-caption">Fresh Catch from Krishna District</div>
+                    </div>
+                    <!-- Duplicate images for seamless loop -->
+                    <div class="gallery-item">
+                        <img src="fish tanks/depositphotos_56719299-stock-photo-harvest-of-fish.jpg" alt="Andhra deep sea fishing">
+                        <div class="gallery-caption">Deep Sea Fishing in Visakhapatnam</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/fishermen-displaying-two-freshly-caught-260nw-2571206159.webp" alt="Net fishing in Andhra">
+                        <div class="gallery-caption">Traditional Net Fishing in Kakinada</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/fishermen-work-260nw-529355779.webp" alt="Aquaculture in Andhra">
+                        <div class="gallery-caption">Aquaculture Farms in East Godavari</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/f1.jpg" alt="Fishing team in Andhra">
+                        <div class="gallery-caption">Fishing Crew at Work in Machilipatnam</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/fishermen-work-260nw-529355779.webp" alt="Fishing boat in Andhra">
+                        <div class="gallery-caption">Traditional Fishing Boats in Srikakulam</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fish tanks/depositphotos_56719299-stock-photo-harvest-of-fish.jpg" alt="Fisherman with catch">
+                        <div class="gallery-caption">Fresh Catch from Krishna District</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We provide a range of skilled fisherman workers to meet your fishing operation needs</p>
+            </div>
+            
+            <div class="service-type-tabs">
+                <button class="service-tab active" data-tab="small-fish">Small Fish Services</button>
+                <button class="service-tab" data-tab="big-fish">Big Fish Services</button>
+            </div>
+            
+            <!-- Small Fish Services -->
+            <div class="service-category active" id="small-fish">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('small fish/bouchu.webp');"></div>
+                        <div class="service-content">
+                            <h3>Bouchu</h3>
+                            <p>Specialized in catching small fish varieties like sardines, anchovies, and mackerel using fine mesh nets.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="rating-value">4.5</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹950/day</span>
+                                <button class="book-now-btn" data-service="Small Net Fishing">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('small fish/clear-shrimp-farm-brought-into-260nw-658351801.webp');"></div>
+                        <div class="service-content">
+                            <h3>Prowns</h3>
+                            <p>Fishing in shallow coastal waters for small species using traditional methods and small boats.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">4.0</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹800/day</span>
+                                <button class="book-now-btn" data-service="Coastal Fishing">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('small fish/pandu kappa.webp');"></div>
+                        <div class="service-content">
+                            <h3>Pandu kappa</h3>
+                            <p>Specialized in collecting small bait fish used for larger fishing operations and sport fishing.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">5.0</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹700/day</span>
+                                <button class="book-now-btn" data-service="Bait Fish Collection">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('small fish/bouchu.webp');"></div>
+                        <div class="service-content">
+                            <h3>Small Fish Processing</h3>
+                            <p>Cleaning, sorting, and packing small fish for market with attention to quality and freshness.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">4.2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹650/day</span>
+                                <button class="book-now-btn" data-service="Small Fish Processing">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            <!-- Big Fish Services -->
+            <div class="service-category" id="big-fish">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('bigfish/murrel-fish.jpeg');"></div>
+                        <div class="service-content">
+                            <h3>koramanu Fishing</h3>
+                            <p>Specialized crew for catching large tuna species in deep waters using longline and purse seine methods.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">4.9</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹2,500/day</span>
+                                <button class="book-now-btn" data-service="Deep Sea Tuna Fishing">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('bigfish/pandhukaapa.jpg');"></div>
+                        <div class="service-content">
+                            <h3>Pandhukaapa Fishing</h3>
+                            <p>Using large trawl nets and purse seines for catching big fish varieties like seer fish, pomfret, and groupers.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="rating-value">4.7</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹1,800/day</span>
+                                <button class="book-now-btn" data-service="Large Net Fishing">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('bigfish/pangas.jpg');"></div>
+                        <div class="service-content">
+                            <h3>Panggas Big Fish </h3>
+                            <p>Specialized in handling, preserving, and transporting large fish catches to maintain quality.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">4.2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹1,500/day</span>
+                                <button class="book-now-btn" data-service="Big Fish Handling">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('bigfish/prawns.jpg');"></div>
+                        <div class="service-content">
+                            <h3>Prawns </h3>
+                            <p>Operating large fishing vessels for extended offshore fishing expeditions targeting big fish species.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">5.0</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹3,000/day</span>
+                                <button class="book-now-btn" data-service="Offshore Vessel Operations">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('bigfish/reb piranhana.webp');"></div>
+                        <div class="service-content">
+                            <h3>Rupechand </h3>
+                            <p>Specialized in filleting, cutting, and processing large fish for commercial markets and exports.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="rating-value">4.5</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹1,200/day</span>
+                                <button class="book-now-btn" data-service="Big Fish Processing">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('bigfish/rohu.webp');"></div>
+                        <div class="service-content">
+                            <h3>Rahu</h3>
+                            <p>Specialized in transporting fish from fishing sites to markets while maintaining freshness and quality.</p>
+                            
+                            <div class="rating-section">
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">4.3</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-footer">
+                                <span class="price">₹1,400/day</span>
+                                <button class="book-now-btn" data-service="Fish Transport & Logistics">
+                                    <i class="fas fa-calendar-check"></i> Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Fisherman Workers</h2>
+                    <p>We are a dedicated platform connecting fishing operations with skilled and experienced fisherman workers from the coastal regions of Andhra Pradesh. Our mission is to provide reliable workforce solutions for the fishing industry while supporting local fishing communities.</p>
+                    <p>With deep roots in Andhra's fishing traditions and over 15 years of experience in the fishing industry, we understand the unique challenges and requirements of fishing operations. Our workers are thoroughly vetted, trained in modern techniques, and ready to contribute to your success.</p>
+                    <p>We serve commercial fishing operations, aquaculture facilities, and research expeditions across coastal regions of Andhra Pradesh including Visakhapatnam, Kakinada, Machilipatnam, and more.</p>
+                </div>
+                <div class="about-img">
+                    <img src="image.jpg" alt="Fisherman workers">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section id="why-choose" class="why-choose">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Fisherman Workers</h2>
+                <p>Discover what makes us the preferred choice for fisherman worker bookings in Andhra Pradesh</p>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Verified Workers</h3>
+                    <p>All our workers undergo thorough background checks and skill verification.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <h3>24/7 Availability</h3>
+                    <p>Book workers anytime with our round-the-clock booking system.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>Dedicated Support</h3>
+                    <p>Our support team is always ready to assist with any issues or questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-title">
+                <h2>Book Fisherman Workers</h2>
+                <p>Fill out the form below to book skilled fisherman workers for your operation</p>
+            </div>
+            <div class="booking-form">
+                <div class="success-message" id="successMessage">
+                    <i class="fas fa-check-circle"></i> Thank you! Your booking request has been submitted successfully. A confirmation email has been sent to your email address.
+                </div>
+                <form id="workerBookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="tankSize">Tank Size (in Guntas)</label>
+                            <select id="tankSize" class="form-control" required>
+                                <option value="">Select Tank Size</option>
+                                <option value="1">1 Gunta</option>
+                                <option value="2">2 Guntas</option>
+                                <option value="3">3 Guntas</option>
+                                <option value="4">4 Guntas</option>
+                                <option value="5">5 Guntas</option>
+                                <option value="6">6 Guntas</option>
+                                <option value="7">7 Guntas</option>
+                                <option value="8">8 Guntas</option>
+                                <option value="9">9 Guntas</option>
+                                <option value="10">10 Guntas</option>
+                                <option value="custom">Custom Size</option>
+                            </select>
+                            
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="district">District</label>
+                            <select id="district" class="form-control" required>
+                                <option value="">Select District</option>
+                                <option value="visakhapatnam">Visakhapatnam</option>
+                                <option value="east-godavari">East Godavari</option>
+                                <option value="west-godavari">West Godavari</option>
+                                <option value="krishna">Krishna</option>
+                                <option value="guntur">Guntur</option>
+                                <option value="prakasam">Prakasam</option>
+                                <option value="nellore">Nellore</option>
+                                <option value="srikakulam">Srikakulam</option>
+                                <option value="vizianagaram">Vizianagaram</option>
+                                <option value="kurnool">Kurnool</option>
+                                <option value="other">Other District</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="area">Area/Location</label>
+                            <input type="text" id="area" class="form-control" placeholder="Enter your area or village name" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="workerType">Type of Worker Needed</label>
+                        <select id="workerType" class="form-control" required>
+                            <option value="">Select worker type</option>
+                            <optgroup label="Small Fish Services">
+                                <option value="small-net-fishing">Small Net Fishing</option>
+                                <option value="coastal-fishing">Coastal Fishing</option>
+                                <option value="bait-fish-collection">Bait Fish Collection</option>
+                                <option value="small-fish-processing">Small Fish Processing</option>
+                                <option value="small-boat-operations">Small Boat Operations</option>
+                            </optgroup>
+                            <optgroup label="Big Fish Services">
+                                <option value="deep-sea-tuna-fishing">Deep Sea Tuna Fishing</option>
+                                <option value="large-net-fishing">Large Net Fishing</option>
+                                <option value="big-fish-handling">Big Fish Handling</option>
+                                <option value="offshore-vessel-operations">Offshore Vessel Operations</option>
+                                <option value="big-fish-processing">Big Fish Processing</option>
+                                <option value="fish-transport-logistics">Fish Transport & Logistics</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="startDate">Start Date</label>
+                            <input type="date" id="startDate" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="duration">Duration (Days)</label>
+                            <input type="number" id="duration" class="form-control" min="1" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="workersCount">Number of Workers Needed</label>
+                        <input type="number" id="workersCount" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="specialRequirements">Special Requirements</label>
+                        <textarea id="specialRequirements" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Booking Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3> Fisherman </h3>
+                    <p>Connecting fishing operations with skilled workers from Andhra Pradesh since 2008.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#booking">Book Workers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>
+                            <a href="mailto:info@andhrafisherman.com" class="contact-link">
+                                <i class="fas fa-envelope"></i> info@andhrafisherman.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+919398013288" class="contact-link">
+                                <i class="fas fa-phone"></i> +91 9398013288
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i> Fishing Harbor, Visakhapatnam, Andhra Pradesh
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          
+        </div>
+    </footer>
+
+    <!-- Notification -->
+    <div class="notification" id="notification"></div>
+
+    <script>
+        // Service Tabs Functionality
+        const serviceTabs = document.querySelectorAll('.service-tab');
+        const serviceCategories = document.querySelectorAll('.service-category');
+        const serviceTabLinks = document.querySelectorAll('.service-tab-link');
+
+        serviceTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const tabId = tab.getAttribute('data-tab');
+                
+                // Update active tab
+                serviceTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                // Show corresponding service category
+                serviceCategories.forEach(category => {
+                    category.classList.remove('active');
+                    if (category.id === tabId) {
+                        category.classList.add('active');
+                    }
+                });
+            });
+        });
+
+        serviceTabLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const tabId = link.getAttribute('data-tab');
+                
+                // Update active tab
+                serviceTabs.forEach(t => t.classList.remove('active'));
+                document.querySelector(`.service-tab[data-tab="${tabId}"]`).classList.add('active');
+                
+                // Show corresponding service category
+                serviceCategories.forEach(category => {
+                    category.classList.remove('active');
+                    if (category.id === tabId) {
+                        category.classList.add('active');
+                    }
+                });
+                
+                // Scroll to services section
+                document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Book Now Button Functionality
+        document.querySelectorAll('.book-now-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const serviceName = this.getAttribute('data-service');
+                
+                // Scroll to booking form
+                document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+                
+                // Set the service type in the form
+                document.getElementById('workerType').value = serviceName.toLowerCase().replace(/ /g, '-');
+                
+                // Show notification
+                showNotification(`Ready to book ${serviceName}! Please fill out the form below.`, 'success');
+            });
+        });
+
+        // Notification function
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = `notification ${type}`;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 5000);
+        }
+
+        // Form submission handling
+        document.getElementById('workerBookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const fullName = document.getElementById('fullName').value;
+            const email = document.getElementById('email').value;
+            const workerType = document.getElementById('workerType').value;
+            const phone = document.getElementById('phone').value;
+            const district = document.getElementById('district').value;
+            const area = document.getElementById('area').value;
+            const tankSize = document.getElementById('tankSize').value;
+            
+            // Show success notification
+            showNotification(`Thank you ${fullName}! Your booking for ${workerType} for ${tankSize} guntas in ${area}, ${district} has been submitted successfully. Confirmation sent to ${email}.`, 'success');
+            
+            // In a real application, you would send this data to a server
+            console.log(`Booking details sent to admin: ${fullName}, ${email}, ${phone}, ${workerType}, ${district}, ${area}, Tank Size: ${tankSize} guntas`);
+            console.log(`Confirmation email sent to user: ${email}`);
+            
+            // Reset the form
+            document.getElementById('workerBookingForm').reset();
+        });
+
+        // Set minimum date to today for booking
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('startDate').setAttribute('min', today);
+    </script>
+</body>
+</html>
